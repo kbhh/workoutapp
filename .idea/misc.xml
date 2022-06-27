@@ -3,7 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/circular_check_item.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/circular_progress_bar.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/circular_progress_bar_background.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/circular_progress_bar_grey.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/item_circular_color_accent_background.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/item_circular_color_accent_border.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable/item_circular_gray_background.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/item_circular_white_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/item_color_accent_border_ripple_background.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/item_ripple_color_accent_borde.xml" value="0.19" />
+        <entry key="app/src/main/res/layout/activity_excercise.xml" value="0.23143115942028986" />
+        <entry key="app/src/main/res/layout/activity_finish.xml" value="0.29393115942028986" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.29393115942028986" />
+        <entry key="app/src/main/res/layout/item_exercise_status.xml" value="0.5959365844726563" />
       </map>
     </option>
   </component>
@@ -12,5 +25,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.23143115942028986" />
+      </ProjectState>
+    </option>
   </component>
 </project>
