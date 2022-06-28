@@ -17,6 +17,14 @@ class MainActivity : AppCompatActivity() {
             val intent:Intent  = Intent(this, ExerciseActivity::class.java);
             startActivity(intent);
         }
+        binding?.flBMI?.setOnClickListener{
+            val intent:Intent  = Intent(this, BMIActivity::class.java);
+            startActivity(intent);
+        }
+        binding?.flCalendar?.setOnClickListener{
+            val intent:Intent  = Intent(this, CalendarActivity::class.java);
+            startActivity(intent);
+        }
     }
 
     override fun onDestroy() {

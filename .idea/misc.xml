@@ -9,10 +9,14 @@
         <entry key="app/src/main/res/drawable/circular_progress_bar_grey.xml" value="0.19" />
         <entry key="app/src/main/res/drawable/item_circular_color_accent_background.xml" value="0.1635" />
         <entry key="app/src/main/res/drawable/item_circular_color_accent_border.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable/item_circular_color_accent_border_bmi.xml" value="0.19" />
         <entry key="app/src/main/res/drawable/item_circular_gray_background.xml" value="0.1635" />
         <entry key="app/src/main/res/drawable/item_circular_white_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/item_color_accent_border_ripple_background.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/item_color_accent_border_ripple_background_BMI.xml" value="0.19" />
         <entry key="app/src/main/res/drawable/item_ripple_color_accent_borde.xml" value="0.19" />
+        <entry key="app/src/main/res/layout/activity_bmiactivity.xml" value="0.23143115942028986" />
+        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_excercise.xml" value="0.23143115942028986" />
         <entry key="app/src/main/res/layout/activity_finish.xml" value="0.29393115942028986" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.29393115942028986" />

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BMIActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/white"
+        android:theme="@style/ToolBaTheme" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/bmi_height"
+        android:layout_below="@+id/toolbar_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/green"
+        app:hintTextColor="@color/green"
+        android:layout_margin="10dp"
+        android:hint="HEIGHT (in cm)"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/height_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/white"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/bmi_weight"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/bmi_height"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/green"
+        app:hintTextColor="@color/green"
+        android:layout_margin="10dp"
+        android:hint="WEIGHT (in kg)"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/weight_inpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/white"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+   <LinearLayout
+       android:id="@+id/result_msgs"
+       android:layout_width="wrap_content"
+       android:layout_below="@+id/bmi_weight"
+       android:layout_centerHorizontal="true"
+       android:layout_margin="20dp"
+       android:orientation="vertical"
+       android:visibility="gone"
+       android:gravity="center"
+       android:layout_height="wrap_content">
+     <TextView
+         android:layout_width="wrap_content"
+         android:text="YOUR BMI"
+         android:textSize="16sp"
+         android:textStyle="bold"
+         android:layout_height="wrap_content"/>
+       <TextView
+           android:id="@+id/bmi_result_tx"
+           android:layout_width="wrap_content"
+           android:text="YOUR BMI"
+           android:textSize="16sp"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:id="@+id/bmi_label_tx"
+           android:layout_width="wrap_content"
+           android:text="Over Weight"
+           android:textSize="16sp"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:id="@+id/bmi_message_tx"
+           android:layout_width="wrap_content"
+           android:text="Oops you really need to take care of your self! workout maybe"
+           android:textSize="16sp"
+           android:gravity="center"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content"/>
+
+   </LinearLayout>
+    <Button
+        android:layout_below="@+id/result_msgs"
+        android:id="@+id/calculate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="CALCULATE"
+        android:backgroundTint="@color/green"
+        />
+
+</RelativeLayout>
